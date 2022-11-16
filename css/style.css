@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  background: green;
+}
+
+h1{
+  width: 500px;
+  text-align: center;
+  margin-top: 10px;
+  text-shadow: 2px 2px 2px red;
+  letter-spacing: 1px;
+}
+
+input{
+  margin: 7px 10px;
+  height: 35px;
+  width: 500px;
+  font-size: 14px;
+  line-height: 16px;
+  background: rgb(206, 198, 198);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(20, 68, 20);
+  text-align: center;
+}
+
+input:hover{
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 254, 254);
+  box-shadow: 7px 7px 7px rgb(9, 43, 9);
+}
+
+.form-titel{
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.register-form-container{
+  background: steelblue;
+  border: 1px solid rgb(0, 0, 0) ;
+  border-radius: 10px;
+  width: 520px;
+  margin: 20px;
+  box-shadow: 7px 7px 7px rgb(9, 43, 9);
+}
+
+.form-buttons{
+  text-align: center;
+  margin: 10px;
+}
+
+.button{
+  color: rgb(0, 0, 0);
+  background: rgb(255, 155, 5);
+  height: 35px;
+  width: 150px;
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.button:hover{
+  color: rgb(255, 255, 255);
+  background: green;
+  font-size: 1.2em;
+  box-shadow: 7px 7px 7px rgb(9, 43, 9);
+  }
+
+.divider{
+  margin: 5px;
+  font-size: 1em;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: 2px 2px 2px red;
+}
+
+.buttonG{
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  color: green;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px red;
+}
+
+.buttonG:hover{
+  color: white;
+  font-size: 1.2em;
+  text-shadow: 7px 7px 7px rgb(0, 0, 0);
+}
